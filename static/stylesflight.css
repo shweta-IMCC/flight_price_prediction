@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+body {
+    background-image: url("airplane.jpg");
+     background-repeat: no-repeat;
+     background-size:  100% 100%;
+     text-align: center;
+  }
+p{
+    font-size: smaller;
+    color: #f2cd5e;
+    
+}
+h4{
+    font-family: cursive;
+}
+ 
+ 
+     
+.navbar{
+     color: #000707;
+     background-color: black;
+    }
+
+ .a {
+     background-color: rgba(85, 80, 80, 0.938);
+ }
+ 
+ a:hover {
+     color: #f0f0f0;
+   }
+   
+   .card-title{
+     display :flex ;
+     flex-direction: row;
+     align-content: center;
+     text-align: left;
+   }
+     .card {
+        margin-right: auto;
+        margin-left: auto;
+        width: 350px;
+        box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+        border-radius: 5px;
+        backdrop-filter: blur(14px);
+        background-color: rgba(255, 255, 255, 0.2);
+        text-align: center;
+    }
+    h4{
+        background-color: #ffc2c2;
+        padding: 6px;
+    }
+ 
+  .btn-secondary{
+     background-color: rgba(0, 3, 3, 0.596);
+     margin-top: 15px;
+     font-size: 25px;
+  }
+ .prediction_text{
+     font-family: cursive;}
+
+     
+input{
+    background-color: rgba(222, 245, 223, 0.2);
+
+}
+
+select{
+    background-color: rgba(222, 245, 223, 0.2); 
+}
+
